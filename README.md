@@ -1,4 +1,4 @@
-## project or program name 
+## Project name 
 Portfolio Landing Page
 
 ## Author name
