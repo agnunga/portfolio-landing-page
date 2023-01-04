@@ -2,5 +2,17 @@ body, h1,h2,h3,h4,h5,h6 {font-family: sans-serif;}
 .row-padding img {margin-bottom: 12px}
 #main_container {margin-left: 120px;background: rgb(196, 196, 196);}
 /* Remove margins from "page content" on small screens */
+.column {
+    float: left;
+    width: 33.33%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
 @media only screen and (max-width: 600px) {#main_container {margin-left: 0}}
 
