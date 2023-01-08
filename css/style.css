@@ -1,18 +1,41 @@
-body, h1, h2, h3, h4, h5, h6, p {font-family: sans-serif;}
-.row-padding img {margin-bottom: 12px}
-#main_container {margin-left: 120px;background: rgb(196, 196, 196);}
+body, h1, h2, h3, h4, h5, h6, p {
+  font-family: sans-serif;
+}
+
+.row-padding img {
+  margin-bottom: 12px;
+}
+
+#main_container {
+  margin-left: 2%;
+  background: rgb(255, 255, 255);
+}
+
+#my_projects {
+  /* width: 200px; */
+  /* height: 150px; */
+}
+
+#my_about {
+  /* margin-left: 10px; */
+  background: rgb(196, 196, 196);
+}
+
 /* Remove margins from "page content" on small screens */
 .column {
     float: left;
-    width: 33.33%;
+    width: 28%;
+    border-radius: 10px;
+    border: 1px solid #73AD21;
+    padding: 20px;
+    margin: 5px;
   }
   
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 @media only screen and (max-width: 600px) {#main_container {margin-left: 0}}
-
